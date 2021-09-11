@@ -116,20 +116,23 @@ body * {
 }
 
 .career {
-  margin: 50px 100px;
+  margin: 100px;
 }
 
 .career__category {
   border: 3px solid #34568b;
   border-radius: 30px;
+  position: relative;
 }
 
 .career__title {
-  position: relative;
-  display: inline-block;
-  left: 10%;
-  bottom: 50px;
-  padding: 15px;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 0px 15px;
   font-size: 40px;
   font-weight: 600;
   background-color: white;
@@ -141,6 +144,7 @@ body * {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 30px;
 }
 
 .career__item {
