@@ -11,8 +11,10 @@ body {
 }
 
 body * {
+  border: 1px solid tomato;
   box-sizing: border-box;
   transition: all 0.25s;
+  line-height: 1.5;
 }
 
 .nav {
@@ -145,4 +147,46 @@ body * {
   width: 150px;
   height: 150px;
   margin: 20px;
+}
+
+.career__item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.overlay__container {
+  position: relative;
+}
+
+.overlay__inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  opacity: 0;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 100%;
+}
+
+.overlay__inner:hover {
+  opacity: 0.8;
+}
+
+.overlay__text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
