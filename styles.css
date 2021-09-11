@@ -127,11 +127,12 @@ body * {
 .career__title {
   position: relative;
   display: inline-block;
-  left: 50px;
-  bottom: 23px;
-  background-color: white;
+  left: 10%;
+  bottom: 50px;
+  padding: 15px;
   font-size: 40px;
   font-weight: 600;
+  background-color: white;
 }
 
 .career__items {
